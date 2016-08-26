@@ -1,10 +1,8 @@
-var numero = prompt ("ingresa tu número");
-var n = 0 ;
-if ( (numero) / 2 ==  ) {
-    window.alert ("Impar");
-}
 
+var numero = parseInt(prompt("Ingresa un número"));
+if (numero %2==0) {
+        window.alert("Este es un número par");    
+    }
 else {
-    window.alert ("Par")
-    
-}
+        window.alert("Este es un número impar");
+    }
